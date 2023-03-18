@@ -21,3 +21,13 @@ export type Post = {
   likes: Map<String, Boolean>;
   comments: any[];
 };
+
+export type UerFormValues = {
+  firstName: String;
+  lastName: String;
+  email: String;
+  password: String;
+  location: String;
+  occupation: String;
+  picture: any;
+};
